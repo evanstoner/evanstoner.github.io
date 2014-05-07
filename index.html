@@ -10,11 +10,17 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4 left-rail">
+<!--
           <div class="initials hidden-sm"> 
               &ndash;ES&ndash;
           </div>
           <div class="initials visible-sm"> 
               ES
+          </div>
+-->
+          <div class="portrait-container">
+            <img 
+  src="http://www.gravatar.com/avatar/579cf5ace3b2f56590f01ab82991511f.png?s=400" class="me-sm">
           </div>
           <ul class="nav nav-stacked">
             <li>
@@ -35,26 +41,21 @@
           <p class="visible-xs"></p>
           <div id="about" class="page">
             <div class="col-lg-12">
-              <img 
-src="http://www.gravatar.com/avatar/579cf5ace3b2f56590f01ab82991511f.png?s=600" class="me me-lg visible-lg">
-              <img 
-src="http://www.gravatar.com/avatar/579cf5ace3b2f56590f01ab82991511f.png?s=600" class="me me-sm visible-sm visible-md">
-              
               <div class="big">
-                <p>
-                  I&rsquo;m Evan, a Computer Science grad student at Florida Institute of Technology.
+                <p class="before-list">
+                  I&rsquo;m Evan Stoner, a Computer Science grad student solving cyber security 
+                  problems, and I&rsquo;m in nerd-love with:
                 </p>
                 
+                <ul>
+                  <li>web design <span class="amp"></span> development</li>
+                  <li>big data <span class="amp"></span> data visualization</li>
+                  <li>user experience</li>
+                </ul>
+                
                 <p>
-                  I&rsquo;m in nerd-love with:
-                  <ul>
-                    <li>web design <span class="amp"></span> development</li>
-                    <li>big data <span class="amp"></span> data visualization</li>
-                    <li>user experience</li>
-                  </ul>
-                
-                
-                <p>If you are too, let&rsquo;s chat on <a target="_blank" href="http://linkedin.com/in/evanstoner">LinkedIn</a>.</p>
+                  If you are too, let&rsquo;s chat on <a target="_blank" href="http://linkedin.com/in/evanstoner">LinkedIn</a>.
+                </p>
               </div>
             </div>
           </div>
@@ -70,53 +71,70 @@ src="http://www.gravatar.com/avatar/579cf5ace3b2f56590f01ab82991511f.png?s=600" 
           </div>
           
           <div id="research" class="page">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
               <h1>Intelligent Communication and Information Systems</h1>
               
-              <h2>Working on cyber-emulation</h2>
+              <h3>Cyber emulation (May 2013 to Present)</h3>
+              
+              <div class="justify">
+                <p>
+                  Cyber defense experimentation and training is conducted primarily in two ways: live
+                  exercises (human players on physical hardware) or emulated excercises (emulated users
+                  on physical or virtual hardware. Live exercises are representative of actual operations,
+                  but are expensive. Emulated exercises are efficient, but rely on static attack and
+                  defense strategies that lack human-like adaptability.
+                </p>
+
+                <p>
+                  Our tool, the Virtual Infrastructure for Network Emulation (VINE), runs goal-driven
+                  emulated users on virtual machines, making it both an efficient and realistic tool.
+                  The adaptive users generate real network traffic in a believable order, making VINE
+                  an excellent tool for many types of cyber research and education.
+                </p>
+              </div>
               
               <p>
-                Our tool provides a virtual infrastructure for network emulation. We allow users to 
-                configure testbeds where they can run experiments. Having a virtualized network environment 
-                allows scientists to quickly deploy, test, modify, and tear down network configurations.
-                With <a href="http://vde.sourceforge.net/" target="_blank">Virtual Distributed Ethernet</a> (VDE),
-                testbeds can scale horizontally as experiments grow.
+                Related presentation: &ldquo;VINE: A Cyber Emulation Environment for Advanced Experimentation and Training&rdquo;
               </p>
               
-              <p>
-                Technologies: Java, MySQL, VirtualBox, VDE, JavaScript, Ember.js
+              <p class="subtle">
+                Java, MySQL, VirtualBox, VDE, JavaScript, Ember.js
               </p>
               
-              <h2>Worked on electronic warfare simulation</h2>
+              <h3>Electronic warfare simulation (Summer 2012)</h3>
               
-              <p>
-                Our tool&mdash;a game for the <a href="http://springrts.com/">Spring RTS</a> engine&mdash;provided 
-                proof-of-concept for an electronic warfare simulation. By redirecting commands out to
-                an emulated wireless network, we were able to simulate radio limitations in the game.
-              </p>
+              <div class="justify">
+                <p>
+                  Our tool&mdash;a game for the <a href="http://springrts.com/">Spring RTS</a> engine&mdash;provided 
+                  proof-of-concept for an electronic warfare simulation. By redirecting commands out to
+                  an emulated wireless network, we were able to simulate radio limitations in the game.
+                </p>
+              </div>
 
               <p>
-                Related publication: A Gaming Environment for Resilient Network Design and Adversarial Co-Evolution Modeling
+                Related publication: &ldquo;A Gaming Environment for Resilient Network Design and Adversarial Co-Evolution Modeling&rdquo;
               </p>
               
-              <p>
-                Technologies: Lua, C++
+              <p class="subtle">
+                Lua, C++
               </p>
             </div>
             
-            <div class="col-lg-6">
+            <div class="col-lg-12">
               <h1>Bio-inspired Computing and Complex Networks</h1>
               
-              <h2>Worked on data visualization</h2>
+              <h3>Data visualization (Sept. 2010 to Dec. 2013)</h3>
               
-              <p>
-                While other lab members focused on the creation and analysis of complex networks, I
-                worked on visualizing their findings.
-                Whenever possible, I employed a web-based solution so that the work could be made available
-                to the general public in the future.
-              </p>
+              <div class="justify">
+                <p>
+                  While other lab members focused on the creation and analysis of complex networks, I
+                  worked on visualizing their findings.
+                  Whenever possible, I employed a web-based solution so that the work could be made available
+                  to the general public in the future.
+                </p>
+              </div>
               
-              <p>Technologies: JavaScript, D3.js, MySQL</p>
+              <p class="subtle">JavaScript, D3.js, MySQL</p>
             </div>
           </div>
           

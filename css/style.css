@@ -45,27 +45,17 @@ body {
   color: #fff;
 }
 
+div.portrait-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-img.me {
+div.portrait-container>img {
   border-radius: 50%;
-  float: right;
-}
-
-img.me-sm {
   width: 200px;
-  height: 200px;
+  border: solid 4px white;
+  box-shadow: 0px 0px 2px 1px #808080;
 }
-
-img.me-md {
-  width: 200px;
-  height: 300px;
-}
-
-img.me-lg {
-  width: 300px;
-  height: 300px;
-}
-
 
 div.big {
   font-size: 24px;
@@ -104,4 +94,17 @@ h3 {
   font-family: 'Libre Baskerville', serif;
   font-size: 16px;
   font-weight: bold;
+}
+
+div.justify>p {
+  text-align: justify;
+}
+
+p.subtle {
+  font-style: italic;
+  color: #808080;
+}
+
+p.before-list {
+  margin-bottom: 0px; 
 }
