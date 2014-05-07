@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Raleway:300,400|Libre+Baskerville:400,700,400italic);
+
+body {
+  margin-top: 30px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+}
+
+.page a {
+  color: #981f41;
+  font-style: italic;
+}
+.page a:hover {
+  background-color: #eee;
+  text-decoration: none;
+}
+
+
+.left-rail {
+  border-right: solid 1px #eee;
+}
+
+
+.initials {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  font-size: 120px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+.nav>li>a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #801b37;
+  transition: background-color 250ms;
+  -webkit-transition: background-color 250ms;
+  -moz-transition: background-color 250ms;
+}
+
+.nav>li.active>a {
+  background-color: #801b37;
+  color: #fff;
+}
+
+
+img.me {
+  border-radius: 50%;
+  float: right;
+}
+
+img.me-sm {
+  width: 200px;
+  height: 200px;
+}
+
+img.me-md {
+  width: 200px;
+  height: 300px;
+}
+
+img.me-lg {
+  width: 300px;
+  height: 300px;
+}
+
+
+div.big {
+  font-size: 24px;
+  line-height: 1.8em;
+}
+
+span.amp:before {
+  content: "\26";
+  font-style: italic;
+  color: #666;
+}
+
+.big>p {
+  margin-bottom: 20px;
+}
+
+h1,h2,h3 {
+  line-height: 1.4em;
+}
+
+
+h1,h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  font-weight: bold;
+}
