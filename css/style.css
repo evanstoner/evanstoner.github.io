@@ -1,110 +1,56 @@
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Raleway:300,400|Libre+Baskerville:400,700,400italic);
+/** fonts by Google **/
+/** background by Subtle Patterns: http://subtlepatterns.com/gplay/ **/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300|Merriweather:400,400italic);
 
 body {
-  margin-top: 30px;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Merriweather', serif;
+  background: #f8f8f8 url(../img/gplaypattern.png);
+  color: #303030;
+}
+
+p {
   font-size: 14px;
-}
-
-.page a {
-  color: #981f41;
-  font-style: italic;
-}
-.page a:hover {
-  background-color: #eee;
-  text-decoration: none;
-}
-
-
-.left-rail {
-  border-right: solid 1px #eee;
-}
-
-
-.initials {
-  font-family: 'Fjalla One', sans-serif;
-  text-transform: uppercase;
-  font-size: 120px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-
-.nav>li>a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 28px;
-  text-transform: uppercase;
-  color: #801b37;
-  transition: background-color 250ms;
-  -webkit-transition: background-color 250ms;
-  -moz-transition: background-color 250ms;
-}
-
-.nav>li.active>a {
-  background-color: #801b37;
-  color: #fff;
-}
-
-div.portrait-container {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-div.portrait-container>img {
-  border-radius: 50%;
-  width: 200px;
-  border: solid 4px white;
-  box-shadow: 0px 0px 2px 1px #808080;
-}
-
-div.big {
-  font-size: 24px;
-  line-height: 1.8em;
-}
-
-span.amp:before {
-  content: "\26";
-  font-style: italic;
-  color: #666;
-}
-
-.big>p {
-  margin-bottom: 20px;
-}
-
-h1,h2,h3 {
-  line-height: 1.4em;
-}
-
-
-h1,h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  line-height: 1.7em;
 }
 
 h1 {
-  font-size: 28px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #404040;
+  margin-bottom: 5px;
 }
 
-h2 {
-  font-size: 24px;
+h2,h3,h4,h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #606060;
 }
 
-h3 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 16px;
-  font-weight: bold;
+.title {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 40px;
 }
 
-div.justify>p {
-  text-align: justify;
+.title h2 {
+  margin-top: 0px;
 }
 
-p.subtle {
-  font-style: italic;
-  color: #808080;
+.title p {
+  margin-top: 30px;
 }
 
-p.before-list {
-  margin-bottom: 0px; 
+.portrait {
+  width: 200px;
+  border-radius: 50%;
+  /*border: solid 2px #808080;*/
+  /*box-shadow: 0px 0px 5px 3px #202020;*/
+}
+
+div.content {
+  background: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  box-shadow: 2px 2px 8px 1px #808080;
 }
